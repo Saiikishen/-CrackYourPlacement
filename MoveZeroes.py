@@ -13,3 +13,6 @@ class Solution:
 
         for i in range(non_zero_index, len(nums)):
             nums[i] = 0
+
+
+#Moved the non zero digits to the beginning of the list and then appended zeroes till the end of the list 
